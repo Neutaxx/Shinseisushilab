@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-shinsei-graphite pt-20 pb-10 border-t border-white/5 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-shinsei-black via-shinsei-red to-shinsei-black opacity-50" />
-      
+
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-1">
           <h3 className="font-serif text-2xl font-bold tracking-widest mb-4">SHINSEI</h3>
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4 text-sm text-shinsei-silver">
             <div className="flex items-start gap-3">
               <MapPin className="w-4 h-4 mt-1 text-shinsei-red" />
-              <p>128 Distrito Neón, <br/>Cyber City, TY 2099</p>
+              <p>128 Distrito Neón, <br />Cyber City, TY 2099</p>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-4 h-4 text-shinsei-red" />
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-shinsei-silver/50">
         <p>© 2024 Shinsei Sushi Lab. Todos los derechos reservados.</p>
-        <p className="mt-2 md:mt-0">Diseñado por AI</p>
+        <p className="mt-2 md:mt-0">Diseñado por RHEON®</p>
       </div>
     </footer>
   );
